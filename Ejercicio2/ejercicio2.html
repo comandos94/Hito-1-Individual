@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <script src="ejercicio2.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body onload="rotarImagen()">
+
+    <!--  Diseña una aplicación web con un formulario, imágenes y tablas -->
+
+    <div id="container">
+
+        <!-- <img src="../img/logoFormulario.png" alt="logoFormulario" id="logoFormulario"> -->
+
+        <form action="" id="formulario">
+
+            <label for="marcaCoche">Escribe la marca:<input type="text" id="marcaCoche"
+                    name="marcaCoche" ></label>
+            <br><br>
+            <label for="modeloCoche">Escribe el modelo:<input type="text" id="modeloCoche"
+                    name="modeloCoche" ></label>
+            <br><br>
+            <label for="fechaMatriculacion">Introduzca la fecha de  matriculación<input type="date" id="fechaMatriculacion"
+                    name="fechaMatriculacion" ></label>
+
+            <br><br>
+            <label for="telefonoContacto">Escribe su teléfono:<input type="tel" id="telefonoContacto"
+                    name="telefonoContacto" ></label>
+            <br><br>
+            
+            <input type="submit" value="Enviar" id="botonEnviar" onclick="crearFila(event)">
+
+        </form>
+
+
+        <div id="contenidoTabla">
+            <table id="tabla">
+
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Fecha matriculación</th>
+                    <th>Teléfono</th>
+
+                </tr>
+
+                
+
+
+            </table>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
